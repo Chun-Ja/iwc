@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/* 기본 CSS */
+/* 모바일 CSS */
+/* header스타일 */
+.wrapper{width:100%;max-width:1920px;margin:0 auto;}
+h2{font-size:12px;font-weight:400;margin-bottom:10px;}
+h1,h3,h5{font-size:20px;font-weight:400;margin-bottom:10px;}
+h4{font-size:12px;font-weight:300;margin-bottom:10px;}
+.white{color:#333;}
+.container{margin:20px 10px;}
+.line4{height:4px;background:#333;margin-bottom:20px;}
+.line1{height:1px;background:#333;margin-top:20px;}
+.dot_line{border-bottom:2px dotted white;}
+.text_box{margin:0 10px;}
+
+#header{padding:0 40px;}
+#header>ul{overflow:hidden;position: relative;}
+#header>ul>li{float:left;width:33.33333333333333%;}
+#header>ul>li:nth-of-type(3){float:right;}
+#nav{font-size:16px;font-weight:500;display:none;margin:43px 0;}
+#nav>a{padding-right:70px;}
+
+#ham_menu{display:inline-block;width:32px;height:32px;margin:43px 0;}
+#ham_menu>div{width:32px;height:3px;background:#333;margin-bottom:12px;}
+#ham_menu>div:last-child{margin-bottom:0;}
+
+#logo{position: absolute;left:33.33333333333333%;top:22px;text-align:center;}
+#login{text-align:right;margin:43px 0;}
+#login>span{display:none;}
+#login img{margin-right:22px;width:40px;height:40px;vertical-align:bottom;}
+#login img:hover{filter:grayscale(80%);}
+#login>a>img{margin-right:0;}
+#login>span>span{margin-right:22px;}
+#login>span>select{border:1px solid #333;}
+
+/* 서브메뉴 */
+#sub_menu{height:100%;position:absolute;left:0;z-index:10;background:white;padding:0 30px;}
+.line{width:100%;height:3px;background:#333;}
+#sub_menu>div{margin-bottom:10px;}
+#sub_menu ul li:first-child{font-size:13px;font-weight:500;}
+#sub_menu ul li{font-size:12px;font-weight:300;margin:10px 0;}
+#sub_menu a:hover,#nav a:hover{color:#b4a065;}
+
+/* 서브와치 */
+#sub_watches{height:100%;position:absolute;left:0;z-index:10;background:white;padding:0 30px;}
+#sub_watches>div{margin-bottom:10px;}
+#sub_watches ul li:first-child{font-size:14px;font-weight:500;}
+#sub_watches ul li{font-size:13px;font-weight:300;margin:10px 0;}
+#sub_watches_01 p{text-align:center;}
+#sub_watches ul li p:nth-of-type(1){font-size:13px;font-weight:500;}
+#sub_watches ul li p:nth-of-type(2){font-size:12px;font-weight:300;margin:10px 0;}
+#sub_watches ul li p:nth-of-type(2):hover{color:#b4a065;}
+#sub_watches_01{overflow:hidden;}
+#sub_watches_01>span{display:inline-block;width:50%}
+#sub_watches_01>span:first-of-type{text-align:left;}
+#sub_watches_01>span:last-of-type{text-align:right;}
+#sub_watches_01>ul>li{width:50%;float:left;}
+#sub_watches_01 img{width:100%;transition:0.2s;}
+#sub_watches_01 img:hover{width:110%;}
+#sub_watches_02{overflow:hidden;display:none;}
+#sub_watches_02>ul{width:25%;float:left;}
+.line1px{height:1px;clear:both;}
+
+/* 로그인창 */
+#login_form{position:absolute;width:100%;height:100%;z-index:10;top:200px;}
+#login_form>form{width:25%;height:auto;margin:0 auto;background:white;padding:20px;border:1px solid #666;box-shadow:1px 1px 3px black;}
+#login_form>form>h2{text-align:center;font-size:28px;}
+#login_form>form>input{padding:5px 0;margin-top:20px;border-bottom:1px solid #666;width:100%;}
+#login_form>form>p{text-align:center;margin-top:20px;}
+#login_form>form>select{width:100%;padding:5px;border-bottom:1px solid #666;margin-top:20px;}
+#login_form>form>input:last-of-type{width:30%;margin:30px 35%;background:white;font-size:28px;border:1px solid #666;}
+#login_form>form>input:last-of-type:hover{background:#333;color:white;}
+
+/* 즐겨찾기 */
+#msg_box{position:absolute;width:100%;height:100%;z-index:10;top:200px;}
+#msg_box>div{width:25%;height:auto;margin:0 auto;background:white;padding:20px;border:1px solid #666;box-shadow:1px 1px 3px black;}
+#msg_box>div>h2{text-align:center;font-size:28px;}
+#msg_box>div>input{padding:5px 0;margin-top:20px;border-bottom:1px solid #666;width:100%;}
+
+/* 배너 */
+div.bx-pager.bx-default-pager{display:none;}
+div.bx-wrapper{box-shadow:none;border:none;}
+.text_box>h5{background:#333;color:white;width:100%;text-align:center;padding:10px;cursor:pointer;border:1px solid white;}
+.text_box>h5:hover{background:white;color:#333;border:1px solid #333;}
+
+/* 섹션 */
+/* 뉴스이벤트 */
+#ne_content{overflow:hidden;}
+#ne_right>img{width:100%;}
+#news_event>.line1{clear:both;}
+
+/* 서브배너 */
+#cban_img>img{width:100%;}
+
+/* 컨테이너 */
+#word_of_racing img{width:100%;}
+
+#wrap_box{margin-top:20px;}
+
+#boutique img{width:100%;}
+
+#service{margin-top:30px;}
+#service a:hover{color:#b4a065;}
+
+/* 푸터 */
+#footer{margin-top:20px;}
+#footer_head{background:#303030;}
+#footer_head h2{color:white;}
+#footer_head a{color:white;}
+
+#footer_bottom{background:black;}
+#footer_bottom a{color:white;}
+#footer_bottom h2{color:white;}
+#footer_bottom h4{color:white;}
+.col04{padding:10px 0;}
+#f_list04,#f_list05,#f_list06{display:none;}
+#footer_header .container{margin-bottom:0;}
+#footer_bottom .container{margin-top:0;}
+
+.dot_line{clear:both;margin-bottom:16px;}
+#footer_end{padding-bottom:16px;}
+#footer_end li{text-align:center;}
+#f_list06>ul>li{display:inline-block;margin:5px 10px;}
+
+
+
+
+/* 테블릿 CSS */
+@media (min-width:640px){
+  .white{color:white;}
+  #sub_watches_01>ul>li{width:33.33333333333333%;}
+  /* banner 스타일 */
+  #banner{position:relative;}
+  #banner>#text_box{position:absolute;top:50px;left:61px;width:50%;}
+  #banner>#text_box>h2{font-size:11px}
+  .text_box>h3{font-size:16px}
+  #banner>#text_box>h4{display:none;}
+  .text_box>h5{color:#333;background:white;font-size:16px;width:100px;padding:10px;}
+  .text_box>h5:hover{color:white;background:#333;border-color:white;}
+  
+
+  /* 서브배너 */
+  .banner{position:relative;}
+  .banner>#text_box{position:absolute;top:30%;left:50%;width:50%;transform:translate(-50%,-50%);text-align:center;}
+  .banner>#text_box>h4{font-size:11px}
+  .banner>#text_box>h5{position:absolute;left:50%;transform:translateX(-50%);}
+
+  /* 뷰티크 */
+  .of_hidden{overflow:hidden;}
+  .of_hidden>div{width:48.95833333333333%;}
+  .right_box{float:right;}
+  .left_box{float:left;}
+
+  /* 푸터 */
+  #f_list04,#f_list05,#f_list06{display:block;}
+  .container{overflow:hidden;}
+  .col04{float:left;width:33.33333333333333%;}
+  #footer_end_par{text-align:center;}
+  #footer_end{display:inline-block;}
+  #footer_end li{float:left;padding:0 20px;}
+  #footer_end li h2{font-size:16px;}
+  #footer_end li:first-child, #footer_end li:nth-child(2){display:none;}
+
+
+}
+
+/* PC CSS */
+@media (min-width:960px){
+  .container{width:50%;max-width:960px;margin:0 auto;}
+  /* header 스타일 */
+  #nav{display:block;}
+  #ham_menu{display:none;}
+  #login>span{display:inline;}
+  #logo{top:15px;}
+  #login img{width:22px;height:22px;}
+  #login>a>img{margin-right:22px;}
+
+  /* sub_menu 스타일 */
+  #sub_menu{overflow:hidden;}
+  #sub_menu>div{width:23.95833333333333%;margin:0 0.5208333333333333%;float:left;}
+  .sub_menu_5_6{width:48.95833333333333% !important;margin:0 0.5208333333333333%;}
+
+  /* sub_watches 스타일 */
+  #sub_watches_02{overflow:hidden;display:block;}
+  #sub_watches_01>ul>li{width:14.28571428571429%;}
+
+  /* banner 스타일 */
+  #banner{position:relative;}
+  .text_box{top:100px;}
+  .text_box>h5{width:160px;padding:10px;}
+  .text_box{top:150px;}
+  .text_box>h2{font-size:12px}
+  .text_box>h3{font-size:20px}
+  .text_box>h4{display:block;}
+  .text_box>h5{font-size:20px;width:160px;padding:10px;}
+  
+  /* 섹션 */
+  #ne_content>div{width:48.95833333333333%;}
+  #ne_left{float:left;}
+  #ne_right{float:right;}
+
+  /* 서브배너 */
+  .banner{margin-top:20px;}
+
+  /* 컨테이너 */
+  #content_box{margin-top:20px;}
+
+  #wrap_box{overflow:hidden;}
+  #wrap_box>div{width:48.95833333333333%;}
+  #wrap_box>#wb_left{float:left;}
+  #wrap_box>#wb_right{float:right;}
+
+
+}
